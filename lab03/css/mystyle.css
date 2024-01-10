@@ -1,0 +1,42 @@
+body {
+    font-family:arial;
+}
+
+span a {
+    font-size: 24px;
+    border: 1px solid cornflowerblue;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:rgb(255, 246, 223);
+}
+
+table,tr,td {
+    font-size: 16px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(200, 240, 255);
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    font-size: 48px;
+    text-align: center;
+}
+
+p,b {
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(0, 0, 0);
+    font-size: 32px;
+    text-align: center;
+}
+
