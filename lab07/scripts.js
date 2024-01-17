@@ -12,15 +12,21 @@ document.addEventListener("DOMContentLoaded", function () {
     
     text: todoText,
     completed: false,
-    }
-    function deleteTodo(index) {
-        todos.splice(index, 1);
-        renderTodoList();
-        }
+    };
     todos.push(todoItem);
     renderTodoList();
     todoInput.value = "";
     }
+    }
+    // ลบรายการ Todo
+    function deleteTodo(index) {
+    todos.splice(index, 1);
+    renderTodoList();
+    }
+    // ตรวจสอบ/ยกเลิกการเสร็จสิ้นรายการ Todo
+    function toggleComplete(index) {
+    todos[index].completed = !todos[index].completed;
+    renderTodoList();
     }
     // แสดงรายการ Todo บนหน้าเว็บ
     function renderTodoList() {
