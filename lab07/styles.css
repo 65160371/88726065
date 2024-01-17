@@ -36,7 +36,7 @@ body {
     }
 
     li.completed {
-    background-color: #d4edda;
+    background-color: #80ff9e;
     text-decoration: line-through;
     }
 
@@ -60,5 +60,5 @@ body {
     }
 
     button:hover {
-    background-color: #0056b3;
+    background-color: #ff8da0;
     }
