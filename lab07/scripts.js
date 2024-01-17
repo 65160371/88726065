@@ -12,7 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
     
     text: todoText,
     completed: false,
-    };
+    }
+    function deleteTodo(index) {
+        todos.splice(index, 1);
+        renderTodoList();
+        }
     todos.push(todoItem);
     renderTodoList();
     todoInput.value = "";
